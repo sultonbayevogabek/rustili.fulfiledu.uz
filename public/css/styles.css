@@ -229,7 +229,7 @@ body {
     border-radius: 1rem;
     padding: 0.5rem;
     font-family: "Inter", sans-serif;
-    font-size: 1rem;
+    font-size: 1.25rem;
     font-weight: 500;
 }
 
@@ -416,7 +416,7 @@ body {
     padding: 1.5rem 0;
 }
 
-.mobile-mentor img {
+.mobile-mentor-img {
     width: 100%;
 }
 
@@ -424,8 +424,18 @@ body {
     padding: 1rem;
 }
 
-.mobile-mentor-inner .webinar-main-button {
-    margin-top: -8rem;
+.mobile-mentor-inner .webinar-main-bottom {
+    margin-top: -14rem;
+    padding: 0 0.5rem;
+}
+
+.mobile-mentor-inner .webinar-main-bottom-direction {
+    width: 2.5rem;
+    top: 35%;
+}
+
+.mobile-mentor-inner .webinar-main-bottom {
+    padding-right: 2.5rem;
 }
 
 @media (min-width: 576px) {
